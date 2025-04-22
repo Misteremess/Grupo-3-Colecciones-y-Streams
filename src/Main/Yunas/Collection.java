@@ -13,7 +13,7 @@ public class BodaJava {
         invitados.add("Carlos");
         invitados.add("Lucía");
 
-        System.out.println("🎉 Lista de invitados (List):");
+        System.out.println("Lista de invitados (List):");
         for (String nombre : invitados) {
             System.out.println("- " + nombre);
         }
@@ -26,7 +26,7 @@ public class BodaJava {
         registrados.add("Carlos");
         registrados.add("Lucía");
 
-        System.out.println("\n📋 Registro de entrada (Set):");
+        System.out.println("Registro de entrada (Set):");
         for (String nombre : registrados) {
             System.out.println("- " + nombre);
         }
@@ -34,7 +34,7 @@ public class BodaJava {
         //El organizador solo quiere una colección para recorrerla (da igual si es lista o set)
         Collection<String> coleccion = invitados; // puedes usar tambien : registrados
 
-        System.out.println("\n🎁 Colección genérica (Collection):");
+        System.out.println("Colección genérica (Collection):");
         for (String nombre : coleccion) {
             System.out.println("- " + nombre);
         }
