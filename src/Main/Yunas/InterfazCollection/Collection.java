@@ -1,5 +1,5 @@
 
-package Main.Yunas.InterfazCollection.java;
+package Main.Yunas.InterfazCollection;
 import java.util.*;
 
 public class BodaJava {

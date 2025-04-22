@@ -1,4 +1,4 @@
-package Main.Yunas.ClaseCollection.java;
+package Main.Yunas.ClaseCollection;
 
 import java.util.*;
 
