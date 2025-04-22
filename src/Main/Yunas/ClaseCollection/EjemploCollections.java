@@ -1,6 +1,9 @@
-package Main.Yunas.ClaseCollection.java;
+package Main.Yunas.ClaseCollection;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 
 public class EjemploCollections {
     public static void main(String[] args) {

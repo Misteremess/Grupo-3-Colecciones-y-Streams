@@ -1,6 +1,7 @@
-package Main.Yunas.InterfazCollection.java;
+package Main.Yunas.InterfazCollection;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class BodaJava {
     public static void main(String[] args) {

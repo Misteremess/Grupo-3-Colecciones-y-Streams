@@ -1,8 +1,8 @@
 
-package Main.Yunas.InterfazCollection.java;
+package Main.Yunas.InterfazCollection;
 import java.util.*;
 
-public class BodaJava {
+public class BodaJava2 {
     public static void main(String[] args) {
         
         //Lista de invitados (puede tener repetidos y mantiene el orden)
