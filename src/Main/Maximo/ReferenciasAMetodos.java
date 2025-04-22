@@ -4,7 +4,7 @@ import java.util.*;
 import java.util.function.*;
 import java.util.stream.Collectors;
 
-public class referenciasAMetodos {
+public class ReferenciasAMetodos {
 
     // 1. Metodo estático
     public static int duplicar(int x) {
@@ -20,13 +20,13 @@ public class referenciasAMetodos {
 
         // 1. Referencia a metodo estático -> Clase::metodoEstatico
 
-        Function<Integer, Integer> funcionDoble = referenciasAMetodos::duplicar;
+        Function<Integer, Integer> funcionDoble = ReferenciasAMetodos::duplicar;
         System.out.println("1. Doble de 4: " + funcionDoble.apply(4)); // 8
 
 
         // 2. Referencia a metodo de instancia de un objeto concreto -> objeto::metodoInstancia
 
-        referenciasAMetodos ejemplo = new referenciasAMetodos();
+        ReferenciasAMetodos ejemplo = new ReferenciasAMetodos();
         Consumer<String> consumidor = ejemplo::saludar;
         System.out.print("2. Saludo: ");
         consumidor.accept("Max"); // Hola, Max
