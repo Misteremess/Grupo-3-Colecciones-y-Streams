@@ -1,4 +1,4 @@
-package Main.Yunas.ArrayList_y_LinkedList.java;
+package Main.Yunas.InterfazCollection.java;
 
 import java.util.*;
 
